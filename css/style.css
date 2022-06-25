@@ -1,0 +1,42 @@
+body{
+    background-image: linear-gradient(rgb(104, 104, 233), rgb(209, 66, 114));
+    height: 100vh;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+
+.chatContainer{
+    background-color: aliceblue;
+    height: 300px;
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    overflow-y: auto;
+}
+
+.msg{
+    width: 24%;
+    background-color: green;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.sendContainer{
+    padding-top: 20px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}

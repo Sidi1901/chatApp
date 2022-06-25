@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatApp</title>
+
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav>
+        <img class="logo" src="assets/logo.jpg">
+    </nav>
+    <div class="chatContainer" id="chatContainerID">
+        <div class="msg right">hello behen how are you</div>
+        <div class="msg left">I am fine</div>
+    </div>
+
+    <div class="sendContainer">
+        <form action="#" id="formid">
+            <input type="text" name="msginp" id="msginp">
+            <button type="submit">send</button>
+        </form>
+    </div>
+</body>
+
+<script defer src="http://localhost:8000/socket.io/socket.io.js"></script> <!--to connect server and client-->
+<script defer src="js/client.js"></script>
+</html>
